@@ -1,2 +1,2 @@
-App Name, Category, Filesystem Type Required, Supports CLI, Supports GUI, isPaidApp, Version
-Octave, Distribution, octave, true, true, false, 1
+App Name, Category, Filesystem Type Required, Supports CLI, Supports GUI, Supports Standalone, isPaidApp, Version
+Octave, Distribution, octave, true, true, false, false, 1
