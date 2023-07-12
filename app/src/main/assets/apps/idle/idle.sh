@@ -59,11 +59,6 @@ if [ ! -f /support/full_screen_fix ]; then
   touch /support/full_screen_fix
 fi
 
-#if [ ! -f /support/.octave_set_toolkit ]; then
-#   echo "graphics_toolkit('gnuplot')" > ~/.octaverc
-#   touch /support/.octave_set_toolkit
-#fi
-
-/usr/bin/octave --gui
+/usr/bin/idle3
 
 exit

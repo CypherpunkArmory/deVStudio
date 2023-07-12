@@ -1,4 +1,4 @@
-package tech.ula.octave
+package tech.ula.idle
 
 import android.content.Intent
 import android.os.Bundle
@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     fun processIntent(intent: Intent) {
         val ulaIntent = Intent(this, MainActivity::class.java)
-        val app = App("octave","Distribution", "octave", true, true, "false", false, 1)
+        val app = App("idle","Distribution", "idle", true, true, "false", false, 1)
         ulaIntent.putExtra("app", app)
         this.startActivity(ulaIntent)
         finish()

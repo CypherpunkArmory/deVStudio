@@ -8,7 +8,7 @@ android {
     buildToolsVersion "33.0.0"
 
     defaultConfig {
-        applicationId "tech.ula.octave"
+        applicationId "tech.ula.idle"
         minSdkVersion 21
         targetSdkVersion 31
 
