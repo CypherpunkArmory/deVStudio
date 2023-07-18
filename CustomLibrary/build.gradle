@@ -34,7 +34,7 @@ android {
         buildConfigField "String", "DEFAULT_USERNAME", "\"userland\""
 
         //controls whether to ask for session type or not
-        buildConfigField 'boolean', 'USE_DEFAULT_SERVICE_TYPE', 'false'
+        buildConfigField 'boolean', 'USE_DEFAULT_SERVICE_TYPE', 'true'
         buildConfigField "String", "DEFAULT_LAUNCH_TYPE", "\"vnc\""
 
         buildConfigField "String", "VNC_DISPLAY", "\"52\""
@@ -81,7 +81,7 @@ android {
         //these are used to help determine the resolution
         //TODO rework these into the math before next Relag merge
         buildConfigField 'boolean', 'FORCE_PORTRAIT_GEOMETRY', 'true'
-        buildConfigField 'int', "MAX_DIMENSION", "1000"
+        buildConfigField 'int', "MAX_DIMENSION", "10000"
         buildConfigField 'int', "MIN_DIMENSION", "360"
 
         //these can be used to turn off certain prompts we present to users
