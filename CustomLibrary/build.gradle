@@ -16,7 +16,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
 
-        buildConfigField "String", "REPO_NAME", "\"IDLE\""
+        buildConfigField "String", "REPO_NAME", "\"deVStudio\""
 
         buildConfigField 'String', 'VERSION_CODE', '\"' + rootProject.ext.appVersionCode + '\"'
         buildConfigField 'String', 'VERSION_NAME', '\"' + rootProject.ext.appVersionName + '\"'

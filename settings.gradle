@@ -1,4 +1,4 @@
-rootProject.name = "IDLE"
+rootProject.name = "deVStudio"
 include ':app', ':UserLAndLibrary'
 project(':UserLAndLibrary').projectDir = new File('UserLAndLibrary/app')
 

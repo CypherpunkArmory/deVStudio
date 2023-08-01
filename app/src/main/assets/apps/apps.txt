@@ -1,2 +1,2 @@
 App Name, Category, Filesystem Type Required, Supports CLI, Supports GUI, Supports Standalone, isPaidApp, Version
-IDLE, Distribution, idle, false, true, false, false, 1
+deVStudio, Distribution, devstudio, false, true, false, false, 1
