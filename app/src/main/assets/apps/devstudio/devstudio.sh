@@ -53,6 +53,6 @@ if [ ! -f /support/gdk_fix ]; then
   touch /support/gdk_fix
 fi
 
-/usr/bin/idle
+/usr/bin/code --no-sandbox
 
 exit
